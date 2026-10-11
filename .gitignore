@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Database
+data/*.db
+data/*.db-joural
+!data/.gitkeep
+
+# uploads (keep folder structure but ignore files)
+public/uploads/*
+!public/uploads/.gitkeep
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.logs
+npm-debug.log*
